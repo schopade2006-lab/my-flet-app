@@ -3,3 +3,11 @@ keystore_path = "my-release-key.p12"
 keystore_password = "#Soham2006#"
 key_alias = "my-app-key"
 key_password = "#Soham2006#"
+[project]
+name = "my-flet-app"
+version = "0.1.0"
+dependencies = [
+    "flet",
+    "numpy"
+]
+
